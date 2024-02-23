@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones_categorias">
+
+        <item name="item1" type="string" >Beef</item>
+        <item type="string" name="item2">Chicken</item>
+        <item name="item3" type="string">Dessert</item>
+        <item name="item4" type="string">Lamb</item>
+        <item type="string" name="item5">Miscellaneous</item>
+        <item name="item6" type="string">Pasta</item>
+        <item name="item7" type="string">Pork</item>
+        <item type="string" name="item8">Seafood</item>
+        <item name="item9" type="string">Side</item>
+        <item name="item10" type="string">Starter</item>
+        <item type="string" name="item11">Vegan</item>
+        <item name="item12" type="string">Vegetarian</item>
+        <item name="item13" type="string">Breakfast</item>
+        <item type="string" name="item14">Goat</item>
+    </string-array>
+</resources>

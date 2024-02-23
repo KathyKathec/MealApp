@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context=".Inicio">
+
+    <TextView
+        android:id="@+id/txtInicio"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Procure aqui a sua comida por sua categoria!"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Spinner
+        android:id="@+id/categorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:entries="@array/opciones_categorias"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnProcura"
+        app:layout_constraintTop_toBottomOf="@+id/txtInicio"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btnProcura"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="257dp"
+        android:layout_height="123dp"
+        android:background="@color/white"
+        android:text="Procurar"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.586" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
